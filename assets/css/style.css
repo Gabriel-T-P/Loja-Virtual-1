@@ -1,3 +1,166 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+body {
+  color: #343A40;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+header {
+  background-color: #FFC107;
+  padding: 23px;
+}
+header form input[type=text] {
+  background-color: #fff;
+  width: 100%;
+  border-style: none;
+  border-radius: 100px;
+  padding: 10px 0px 10px 25px;
+}
+header form button {
+  border: none;
+  background: none;
+  position: relative;
+  right: 40px;
+}
+header ul li {
+  position: relative;
+}
+header ul li .notification {
+  color: #fff;
+  background-color: #FF0F9A;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  top: -11px;
+  left: 5px;
+  border-radius: 100px;
+  height: 15px;
+  width: 15px;
+}
+header ul li a {
+  font-size: 17px;
+  font-weight: bold;
+  color: #343A40;
+}
+header ul li a svg {
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}
+header ul li a:hover {
+  color: initial;
+}
+
+nav.nav-products {
+  background-color: #343A40;
+  color: #fff;
+}
+nav.nav-products a {
+  color: #fff;
+}
+nav.nav-products ul.nav li {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  padding: 10px 10px;
+}
+nav.nav-products ul.nav li svg {
+  height: 30px;
+  width: 20px;
+  margin-right: 8px;
+}
+nav.nav-products ul.nav li:hover {
+  background-color: #2b3035;
+}
+nav.nav-products ul.nav li:hover ul.nav {
+  display: block;
+}
+nav.nav-products ul.nav li ul.nav {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  background-color: #343A40;
+  border-top: solid #FFC107 10px;
+}
+nav.nav-products ul.nav li ul.nav li {
+  padding: 12px 25px;
+}
+
+.static-promotional-banners {
+  margin-top: 30px;
+}
+.static-promotional-banners .static-promotional-banner-1 {
+  background-color: #FF0F9A;
+  background-image: url("../img/parcele-em-12x.jpg");
+}
+.static-promotional-banners .static-promotional-banner-2 {
+  background-color: #B343C3;
+  background-image: url("../img/entrega-para-todo-brasil.jpg");
+}
+.static-promotional-banners .static-promotional-banner-1,
+.static-promotional-banners .static-promotional-banner-2 {
+  background-size: cover;
+  height: 105px;
+  padding: 30px 65px;
+  color: #fff;
+}
+.static-promotional-banners .static-promotional-banner-1 svg,
+.static-promotional-banners .static-promotional-banner-1 p,
+.static-promotional-banners .static-promotional-banner-2 svg,
+.static-promotional-banners .static-promotional-banner-2 p {
+  margin: 0;
+  padding: 0;
+}
+.static-promotional-banners .static-promotional-banner-1 svg,
+.static-promotional-banners .static-promotional-banner-2 svg {
+  height: 60px;
+  width: 50px;
+}
+.static-promotional-banners .static-promotional-banner-1 p,
+.static-promotional-banners .static-promotional-banner-2 p {
+  font-size: 23px;
+  font-weight: 100;
+  line-height: 110%;
+  margin-left: 20px;
+}
+.static-promotional-banners .static-promotional-banner-1 p b,
+.static-promotional-banners .static-promotional-banner-2 p b {
+  font-weight: bold;
+}
+
+.produtos {
+  margin: 30px 0px;
+}
+.produtos .produtos-container {
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-itens {
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  margin: 10px 0 0;
+  font-weight: 700;
+  font-size: 19px;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars {
+  margin-bottom: -5px;
+  color: #FFC107;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  height: 9px;
+  width: 10px;
+}
+.produtos .produtos-container .produtos-itens .produtos-preco {
+  font-size: 16px;
+}
 
 /*# sourceMappingURL=style.css.map */

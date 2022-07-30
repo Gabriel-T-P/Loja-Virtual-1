@@ -1,2 +1,12 @@
 //Fontes
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+//configs
+@import "./variables.scss";
+@import "./config.scss";
+
+//Components
+@import "./header.scss";
+@import "./nav-bar.scss";
+@import "./static-promotional-banners.scss";
+@import "./produtos.scss";
