@@ -163,4 +163,56 @@ nav.nav-products ul.nav li ul.nav li {
   font-size: 16px;
 }
 
+footer {
+  background-color: #343A40;
+  padding: 25px 0;
+  color: #fff;
+}
+footer h4 {
+  color: #FFC107;
+  font-size: 18px;
+  font-weight: 620;
+}
+footer ul li a {
+  color: #fff;
+  font-size: 15px;
+}
+footer ul li a:hover {
+  color: #fff;
+}
+
+@media (max-width: 375px) {
+  .static-promotional-banners .static-promotional-banner-1 p,
+.static-promotional-banners .static-promotional-banner-2 p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  header a {
+    margin-left: -5px;
+  }
+  header form {
+    padding: 20px 0;
+    margin: 0 0 0 10px;
+  }
+  #promotion-banner {
+    display: none;
+  }
+  .produtos-container img {
+    width: 100%;
+  }
+  footer h4 {
+    margin-top: 8px;
+  }
+}
+@media (max-width: 992px) {
+  header a img {
+    width: 110px;
+    height: 110px;
+  }
+  header ul li {
+    margin: 8px 0px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
