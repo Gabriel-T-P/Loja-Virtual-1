@@ -214,5 +214,41 @@ footer ul li a:hover {
     margin: 8px 0px;
   }
 }
+.breadcrumb {
+  margin: 40px 0;
+}
+.breadcrumb a {
+  color: #FF0F9A;
+}
+.breadcrumb .active {
+  color: #343A40;
+}
+
+.produtos-compra figure {
+  margin: 0;
+}
+.produtos-compra .produtos-conteudo h1 {
+  font-size: 32px;
+}
+.produtos-compra .produtos-conteudo p {
+  font-size: 16px;
+}
+.produtos-compra .produtos-preco .produtos-star svg {
+  color: #FFC107;
+}
+.produtos-compra .produtos-preco b {
+  font-size: 40px;
+}
+.produtos-compra .produtos-preco form {
+  font-weight: 100px;
+}
+.produtos-compra .produtos-preco form button {
+  margin-top: 20px;
+}
+.produtos-compra .produtos-preco .produtos-star svg,
+.produtos-compra .produtos-preco b span,
+.produtos-compra .produtos-preco form {
+  font-size: 16px;
+}
 
 /*# sourceMappingURL=style.css.map */
