@@ -1,0 +1,49 @@
+nav.nav-products {
+  background-color: $secundary-color;
+  color: $white;
+
+  a {
+    color: $white;
+  }
+
+  ul.nav {
+    li {
+      font-size: 16px;
+      font-weight: 400;
+
+      position: relative;
+      padding: 10px 10px;
+
+      svg {
+        height: 30px;
+        width: 20px;
+        margin-right: 8px;
+      }
+
+      &:hover {
+        background-color: darken($color: $secundary-color, $amount: 4);
+
+        ul.nav {
+          display: block;
+        }
+      }
+
+      ul.nav {
+        display: none;
+        position: absolute;
+        z-index: 999;
+
+        top: 50px;
+        left: 0px;
+        width: 100%;
+
+        background-color: $secundary-color;
+        border-top: solid $primary-color 10px;
+
+        li {
+          padding: 12px 25px;
+        }
+      }
+    }
+  }
+}

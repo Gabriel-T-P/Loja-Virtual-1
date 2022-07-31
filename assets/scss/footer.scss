@@ -1,0 +1,27 @@
+footer {
+  background-color: $secundary-color;
+  padding: 25px 0;
+  color: $white;
+
+  h4 {
+    color: $primary-color;
+    font-size: 18px;
+    font-weight: 620;
+
+  }
+
+  ul {
+
+    li {
+
+      a {
+        color: $white;
+        font-size: 15px;
+
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+}

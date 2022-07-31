@@ -1,0 +1,58 @@
+@media (max-width: 375px) {
+  .static-promotional-banners {
+
+    .static-promotional-banner-1,
+    .static-promotional-banner-2 {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    a {
+      margin-left: -5px;
+    }
+
+    form {
+      padding: 20px 0;
+      margin: 0 0 0 10px;
+    }
+  }
+
+  #promotion-banner {
+    display: none;
+  }
+
+  .produtos-container img {
+    width: 100%;
+  }
+
+  footer {
+    h4 {
+      margin-top: 8px;
+    }
+
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+
+    a {
+      img {
+        width: 110px;
+        height: 110px;
+      }
+    }
+
+    ul {
+      li {
+        margin: 8px 0px;
+      }
+    }
+
+  }
+}
